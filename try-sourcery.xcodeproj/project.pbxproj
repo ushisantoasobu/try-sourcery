@@ -17,6 +17,7 @@
 		D64CC8CE24C2C93D00249508 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D64CC8CC24C2C93D00249508 /* LaunchScreen.storyboard */; };
 		D64CC8D924C2C93D00249508 /* try_sourceryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64CC8D824C2C93D00249508 /* try_sourceryTests.swift */; };
 		D64CC8E424C2C93D00249508 /* try_sourceryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64CC8E324C2C93D00249508 /* try_sourceryUITests.swift */; };
+		D64CC8F324C2CD4300249508 /* Some.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64CC8F224C2CD4300249508 /* Some.swift */; };
 		F1D97CEAD7893CD7B19F6864 /* Pods_try_sourcery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E3144EC5723956140D766E4 /* Pods_try_sourcery.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +60,7 @@
 		D64CC8DF24C2C93D00249508 /* try-sourceryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "try-sourceryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D64CC8E324C2C93D00249508 /* try_sourceryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = try_sourceryUITests.swift; sourceTree = "<group>"; };
 		D64CC8E524C2C93D00249508 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D64CC8F224C2CD4300249508 /* Some.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Some.swift; sourceTree = "<group>"; };
 		E4A2B2D49AA3FF7AA1067B13 /* Pods_try_sourceryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_try_sourceryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F094D2D3B981037F93ECD8C0 /* Pods-try-sourceryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-try-sourceryUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-try-sourceryUITests/Pods-try-sourceryUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -139,6 +141,8 @@
 		D64CC8C024C2C93800249508 /* try-sourcery */ = {
 			isa = PBXGroup;
 			children = (
+				D64CC8F424C2CD9700249508 /* target */,
+				D64CC8F124C2CD3200249508 /* generated */,
 				D64CC8C124C2C93800249508 /* AppDelegate.swift */,
 				D64CC8C324C2C93800249508 /* SceneDelegate.swift */,
 				D64CC8C524C2C93800249508 /* ViewController.swift */,
@@ -166,6 +170,21 @@
 				D64CC8E524C2C93D00249508 /* Info.plist */,
 			);
 			path = "try-sourceryUITests";
+			sourceTree = "<group>";
+		};
+		D64CC8F124C2CD3200249508 /* generated */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = generated;
+			sourceTree = "<group>";
+		};
+		D64CC8F424C2CD9700249508 /* target */ = {
+			isa = PBXGroup;
+			children = (
+				D64CC8F224C2CD4300249508 /* Some.swift */,
+			);
+			path = target;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -360,6 +379,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D64CC8C624C2C93800249508 /* ViewController.swift in Sources */,
+				D64CC8F324C2CD4300249508 /* Some.swift in Sources */,
 				D64CC8C224C2C93800249508 /* AppDelegate.swift in Sources */,
 				D64CC8C424C2C93800249508 /* SceneDelegate.swift in Sources */,
 			);
